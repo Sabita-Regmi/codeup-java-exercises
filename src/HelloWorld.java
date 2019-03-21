@@ -7,13 +7,18 @@ public class HelloWorld {
         System.out.println(myFavNumber);
         String myString="i am sabita";
         System.out.println(myString);
-        float myNumber= 3;
+        float myNumber= 3.14f;
         System.out.println(myNumber);
 //        int x = 5;
 //        System.out.println(x++);
 //        System.out.println(x);
 //        System.out.println(++x);
 //        System.out.println(x);
+//        String theNumberThree = "three";
+//        Object o = theNumberThree;
+//        int three = (int) o;
+
+
         double calculate=21.0/2.0;
         System.out.println(calculate);
         boolean isTrue=false;
@@ -38,5 +43,51 @@ public class HelloWorld {
         y  -= x;
         System.out.println(x);
         System.out.println(y);
+
+        int ourNumber=12801;
+        byte littleNumber=(byte)ourNumber;
+        System.out.println(littleNumber);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(Double.MIN_VALUE);
+
+        float num=3.14f;
+        System.out.println(num);
+        double ten=10;
+        double num4=ten/3.0;
+        System.out.println(num4);
+
+
+//        String name = "codeup";
+//        System.out.format("Hello there, %s. Nice to see you.\n", name);
+        String greeting = "Salutations";
+        String name = "codeup";
+        System.out.format("%s, %s!", greeting, name);
+
     }
-}
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
