@@ -22,7 +22,7 @@ public class Bob {
                 bobResponse = "Whatever";
             }
             System.out.println(bobResponse);
-            System.out.println("Do you want to continue?");
+            System.out.println("say something to Bob: ");
             answer=scanner.nextLine();
         }while(answer.equalsIgnoreCase("y")||answer.equalsIgnoreCase("yes"));
     }

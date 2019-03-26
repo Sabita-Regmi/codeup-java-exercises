@@ -318,7 +318,16 @@ public class ControlFlowExercises {
 //        4     |     00000100
 
 
+        System.out.print("What number would you like to go up to?");
+        int user=scanner.nextInt();
+        System.out.println("number | binary ");
+        System.out.println("------ | ------- ");
+        for(int i = 1; i <= user; i++) {
+            System.out.print(i + " "); //show integer
+            System.out.println(Integer.toBinaryString(i) + "       "); //show binary
 
+
+        }
 
 
     }
